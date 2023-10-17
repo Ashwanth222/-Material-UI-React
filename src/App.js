@@ -131,6 +131,85 @@ import ConsecutiveSnackbars from './components/Feedback/Snackbar/ConsecutiveSnac
 import FabIntegrationSnackbar from './components/Feedback/Snackbar/FabIntegrationSnackbar';
 import TransitionsSnackbar from './components/Feedback/Snackbar/TransitionsSnackbar';
 import IntegrationNotistack from './components/Feedback/Snackbar/IntegrationNotistack';
+import BasicAccordion from './components/surfaces/Accordian/BasicAccordion';
+import ControlledAccordions from './components/surfaces/Accordian/ControlledAccordians';
+import CustomizedAccordions from './components/surfaces/Accordian/CustomizedAccordions';
+import ButtonAppBar from './components/surfaces/App_Bar/ButtonAppBar';
+import MenuAppBar from './components/surfaces/App_Bar/MenuAppBar';
+import ResponsiveAppBar from './components/surfaces/App_Bar/ResponsiveAppBar';
+import SearchAppBar from './components/surfaces/App_Bar/SearchAppBar';
+import BasicCard from './components/surfaces/Card/BasicCard';
+import OutlinedCard from './components/surfaces/Card/OutlinedCard';
+import RecipeReviewCard from './components/surfaces/Card/RecipeReviewCard';
+import SimpleBottomNavigation from './components/Navigation/BottomNavigation/SimpleBottomNavigation';
+import BasicBreadcrumbs from './components/Navigation/Breadcrumbs/BasicBreadcrumbs';
+import ActiveLastBreadcrumb from './components/Navigation/Breadcrumbs/ActiveLastBreadcrumb';
+import Links from './components/Navigation/Link/Links';
+import UnderlineLink from './components/Navigation/Link/UnderlineLink';
+import ButtonLink from './components/Navigation/Link/ButtonLink';
+import BasicMenu from './components/Navigation/Menu/BasicMenu';
+import IconMenu from './components/Navigation/Menu/IconMenu';
+import DenseMenu from './components/Navigation/Menu/DenseMenu';
+import SimpleListMenu from './components/Navigation/Menu/SimpleListMenu';
+import PositionedMenu from './components/Navigation/Menu/PositionedMenu';
+import MenuListComposition from './components/Navigation/Menu/MenuListComposition';
+import AccountMenu from './components/Navigation/Menu/AccountMenu';
+import CustomizedMenus from './components/Navigation/Menu/CustomizedMenus';
+import LongMenu from './components/Navigation/Menu/LongMenu';
+import TypographyMenu from './components/Navigation/Menu/TypographyMenu';
+import FadeMenu from './components/Navigation/Menu/FadeMenu';
+import ContextMenu from './components/Navigation/Menu/ContextMenu';
+import MenuPopupState from './components/Navigation/Menu/MenuPopupState';
+import BasicPagination from './components/Navigation/Pagination/BasicPagination';
+import PaginationOutlined from './components/Navigation/Pagination/PaginationOutlined';
+import PaginationRounded from './components/Navigation/Pagination/PaginationRounded';
+import PaginationSize from './components/Navigation/Pagination/PaginationSize';
+import PaginationButtons from './components/Navigation/Pagination/PaginationButtons';
+import PaginationRanges from './components/Navigation/Pagination/PaginationRanges';
+import BasicSpeedDial from './components/Navigation/Speed_Dial/BasicSpeedDial';
+import PlaygroundSpeedDial from './components/Navigation/Speed_Dial/PlaygroundSpeedDial';
+import OpenIconSpeedDial from './components/Navigation/Speed_Dial/OpenIconSpeedDial';
+import ControlledOpenSpeedDial from './components/Navigation/Speed_Dial/ControlledOpenSpeedDial';
+import SpeedDialTooltipOpen from './components/Navigation/Speed_Dial/SpeedDialTooltipOpen';
+import BoxSx from './components/Layout/Box/BoxSx';
+import BoxComponent from './components/Layout/Box/BoxComponent';
+import SimpleContainer from './components/Layout/Container/SimpleContainer';
+import FixedContainer from './components/Layout/Container/FixedContainer';
+import FullWidthGrid from './components/Layout/Grid/FullWidthGrid';
+import BasicGrid from './components/Layout/Grid/BasicGrid';
+import RowAndColumnSpacing from './components/Layout/Grid/RowAndColumnSpacing';
+import ResponsiveGrid from './components/Layout/Grid/ResponsiveGrid';
+import SpacingGrid from './components/Layout/Grid/SpacingGrid';
+import { AutoGraphTwoTone } from '@mui/icons-material';
+import AutoGrid from './components/Layout/Grid/AutoGrid';
+import VariableWidthGrid from './components/Layout/Grid/VariableWidthGrid';
+import ComplexGrid from './components/Layout/Grid/ComplexGrid';
+import NestedGrid from './components/Layout/Grid/NestedGrid';
+import ColumnsGrid from './components/Layout/Grid/ColumnsGrid';
+import AutoGridNoWrap from './components/Layout/Grid/AutoGridNoWrap';
+import CSSGrid from './components/Layout/Grid/CSSGrid';
+import BasicStack from './components/Layout/Stack/BasicStack';
+import DirectionStack from './components/Layout/Stack/DirectionStack';
+import DividerStack from './components/Layout/Stack/DividerStack';
+import ResponsiveStack from './components/Layout/Stack/ResponsiveStack';
+import FlexboxGapStack from './components/Layout/Stack/FlexboxGapStack';
+import ZeroWidthStack from './components/Layout/Stack/ZeroWidthStack';
+import StandardImageList from './components/Layout/ImageList/StandardImageList';
+import QuiltedImageList from './components/Layout/ImageList/QuiltedImageList';
+import BasicModal from './components/Utils/Modal/BasicModal';
+import NestedModal from './components/Utils/Modal/NestedModal';
+import TransitionsModal from './components/Utils/Modal/TransitionsModal';
+import BasicPopover from './components/Utils/Popover/BasicPopover';
+import MouseOverPopover from './components/Utils/Popover/MouseOverPopover';
+import VirtualElementPopover from './components/Utils/Popover/VirtualElementPopover';
+import PopoverPopupState from './components/Utils/Popover/PopoverPopupState';
+import TransitionsPopper from './components/Utils/Popper/TransitionsPopper';
+import SpringPopper from './components/Utils/Popper/SpringPopper';
+import PositionedPopper from './components/Utils/Popper/PositionedPopper';
+import SimpleFade from './components/Utils/Transitions/SimpleFade';
+import SimpleCollapse from './components/Utils/Transitions/SimpleCollapse';
+import SimplePopper from './components/Utils/Popper/SimplePopper';
+import SimplePaper from './components/surfaces/Paper/SimplePaper';
 
 export default function App() {
   return (
@@ -269,6 +348,84 @@ export default function App() {
       <FabIntegrationSnackbar />
       <TransitionsSnackbar />
       <IntegrationNotistack />
+      <SimplePaper />
+      <BasicAccordion />
+      <ControlledAccordions />
+      <CustomizedAccordions />
+      <ButtonAppBar />
+      <MenuAppBar />
+      <ResponsiveAppBar />
+      <SearchAppBar />
+      <BasicCard />
+      <OutlinedCard />
+      <RecipeReviewCard />
+      <SimpleBottomNavigation />
+      <BasicBreadcrumbs />
+      <ActiveLastBreadcrumb />
+      <Links />
+      <UnderlineLink />
+      <ButtonLink />
+      <BasicMenu />
+      <IconMenu />
+      <DenseMenu />
+      <SimpleListMenu />
+      <PositionedMenu />
+      <MenuListComposition />
+      <AccountMenu />
+      <CustomizedMenus />
+      <LongMenu />
+      <TypographyMenu />
+      <FadeMenu />
+      <ContextMenu />
+      <MenuPopupState />
+      <BasicPagination />
+      <PaginationOutlined />
+      <PaginationRounded />
+      <PaginationSize />
+      <PaginationButtons />
+      <PaginationRanges />
+      <BasicSpeedDial />
+      <PlaygroundSpeedDial />
+      <ControlledOpenSpeedDial />
+      <OpenIconSpeedDial />
+      <SpeedDialTooltipOpen />
+      <BoxSx />
+      <BoxComponent />
+      <SimpleContainer />
+      <FixedContainer />
+      <BasicGrid />
+      <FullWidthGrid />
+      <SpacingGrid />
+      <RowAndColumnSpacing />
+      <ResponsiveGrid />
+      <AutoGrid />
+      <VariableWidthGrid />
+      <ComplexGrid />
+      <NestedGrid />
+      <ColumnsGrid />
+      <AutoGridNoWrap />
+      <CSSGrid />
+      <BasicStack />
+      <DirectionStack />
+      <DividerStack />
+      <ResponsiveStack />
+      <FlexboxGapStack />
+      <ZeroWidthStack />
+      <StandardImageList />
+      <QuiltedImageList />
+      <BasicModal />
+      <NestedModal />
+      <TransitionsModal />
+      <BasicPopover />
+      <MouseOverPopover />
+      <VirtualElementPopover />
+      <PopoverPopupState />
+      <TransitionsPopper />
+      <SpringPopper />
+      <PositionedPopper />
+      <SimplePopper />
+      <SimpleFade />
+      <SimpleCollapse />
     </>
   );
 }
