@@ -210,6 +210,39 @@ import SimpleFade from './components/Utils/Transitions/SimpleFade';
 import SimpleCollapse from './components/Utils/Transitions/SimpleCollapse';
 import SimplePopper from './components/Utils/Popper/SimplePopper';
 import SimplePaper from './components/surfaces/Paper/SimplePaper';
+import SimpleGrow from './components/Utils/Transitions/SimpleGrow';
+import SimpleSlide from './components/Utils/Transitions/SimpleSlide';
+import SimpleZoom from './components/Utils/Transitions/SimpleZoom';
+import TransitionGroupExample from './components/Utils/Transitions/TransitionGroupExample';
+import SlideFromContainer from './components/Utils/Transitions/SlideFromContainer';
+import SimpleMediaQuery from './components/Utils/useMediaQuery/SimpleMediaQuery';
+import JavaScriptMedia from './components/Utils/useMediaQuery/JavaScriptMedia';
+import DataGridDemo from './components/MuiX/DataGrid/DataGridDemo';
+import FirstComponent from './components/MuiX/DateAndTimePickers/FirstComponent';
+import ComponentFamilies from './components/MuiX/DateAndTimePickers/ComponentFamilies';
+import ResponsivePickers from './components/MuiX/DateAndTimePickers/ResponsivePickers';
+import ReferenceDateUsingValue from './components/MuiX/DateAndTimePickers/ReferenceDateUsingValue';
+import ReferenceDateDefaultBehavior from './components/MuiX/DateAndTimePickers/ReferenceDateDefaultBehavior';
+import ReferenceDateExplicitTimePicker from './components/MuiX/DateAndTimePickers/ReferenceDateExplicitTimePicker';
+import ReferenceDateExplicitDateTimePicker from './components/MuiX/DateAndTimePickers/ReferenceDateExplicitDateTimePicker';
+import CustomSlots from './components/MuiX/DateAndTimePickers/CustomSlots';
+import ValidationBehaviorInput from './components/MuiX/DateAndTimePickers/ValidationBehaviorInput';
+import ValidationBehaviorView from './components/MuiX/DateAndTimePickers/ValidationBehaviorView';
+import DateValidationDisablePast from './components/MuiX/DateAndTimePickers/DateValidationDisablePast';
+import DateValidationDisableFuture from './components/MuiX/DateAndTimePickers/DateValidationDisableFuture';
+import DateValidationMinDate from './components/MuiX/DateAndTimePickers/DateValidationMinDate';
+import DateValidationMaxDate from './components/MuiX/DateAndTimePickers/DateValidationMaxDate';
+import DateValidationShouldDisableDate from './components/MuiX/DateAndTimePickers/DateValidationShouldDisableDate';
+import DateRangeValidationShouldDisableDate from './components/MuiX/DateAndTimePickers/DateRangeValidationShouldDisableDate';
+import DateValidationShouldDisableMonth from './components/MuiX/DateAndTimePickers/DateValidationShouldDisableMonth';
+import DateValidationShouldDisableYear from './components/MuiX/DateAndTimePickers/DateValidationShouldDisableYear';
+import TimeValidationMinTime from './components/MuiX/DateAndTimePickers/TimeValidationMinTime';
+import TimeValidationMaxTime from './components/MuiX/DateAndTimePickers/TimeValidationMaxTime';
+import TimeValidationShouldDisableTime from './components/MuiX/DateAndTimePickers/TimeValidationShouldDisableTime';
+import DateTimeValidationMinDateTime from './components/MuiX/DateAndTimePickers/DateTimeValidationMinDateTime';
+import DateTimeValidationMaxDateTime from './components/MuiX/DateAndTimePickers/DateTimeValidationMaxDateTime';
+import RenderErrorUnderField from './components/MuiX/DateAndTimePickers/RenderErrorUnderField';
+import DenseTable from './components/data_display/Table/DenseTable';
 
 export default function App() {
   return (
@@ -292,6 +325,7 @@ export default function App() {
       <FolderList />
       <BasicTable />
       <DataTable />
+      <DenseTable />
       <BasicTooltip />
       <PositionedTooltips />
       <CustomizedTooltips />
@@ -426,6 +460,38 @@ export default function App() {
       <SimplePopper />
       <SimpleFade />
       <SimpleCollapse />
+      <SimpleGrow />
+      <SimpleSlide />
+      <SimpleZoom />
+      <SlideFromContainer />
+      <TransitionGroupExample />
+      <SimpleMediaQuery />
+      <JavaScriptMedia />
+      <DataGridDemo />
+      <FirstComponent />
+      <ComponentFamilies />
+      <ResponsivePickers />
+      <ReferenceDateUsingValue />
+      <ReferenceDateDefaultBehavior />
+      <ReferenceDateExplicitDateTimePicker />
+      <ReferenceDateExplicitTimePicker />
+      <CustomSlots />
+      <ValidationBehaviorInput />
+      <ValidationBehaviorView />
+      <DateValidationDisablePast />
+      <DateValidationDisableFuture />
+      <DateValidationMinDate />
+      <DateValidationMaxDate />
+      <DateValidationShouldDisableDate />
+      <DateRangeValidationShouldDisableDate />
+      <DateValidationShouldDisableMonth />
+      <DateValidationShouldDisableYear />
+      <TimeValidationMinTime />
+      <TimeValidationMaxTime />
+      <TimeValidationShouldDisableTime />
+      <DateTimeValidationMinDateTime />
+      <DateTimeValidationMaxDateTime />
+      <RenderErrorUnderField />
     </>
   );
 }
